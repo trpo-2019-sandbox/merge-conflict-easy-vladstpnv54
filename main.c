@@ -18,11 +18,11 @@ int main()
 {
     int arr[] = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3};
 
-    const int min = min_element(arr, 10);
+    const int min = min_element(arr, 7);
 
     printf("Array: ");
     int i;
-    for (i = 0; i < 10; ++i) {
+    for (i = 0; i < 7; ++i) {
         printf("%d ", arr[i]);
     }
     printf("\n");
